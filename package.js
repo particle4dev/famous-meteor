@@ -19,7 +19,7 @@ Package.on_use(function(api) {
         'requestAnimationFrame.js',
         'require.js',
         'famous.css',
-        'famous.min.js'
+        'famous.js'
     ], client);
     if (typeof api.export !== 'undefined') {
     }
