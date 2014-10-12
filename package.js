@@ -1,8 +1,8 @@
 Package.describe({
     summary: "famous package for meteor",
-    version: "1.0.0",
+    version: "1.1.0",
     name: "particle4dev:famous",
-    git: ""
+    git: "https://github.com/particle4dev/famous-meteor.git"
 });
 
 // meteor test-packages ./
