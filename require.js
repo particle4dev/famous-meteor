@@ -2074,3 +2074,7 @@ var requirejs, require, define;
     //Set up with config info.
     req(cfg);
 }(this));
+
+window.requirejs = requirejs;
+window.require = require;
+window.define = define;
