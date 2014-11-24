@@ -1,6 +1,6 @@
 Package.describe({
     summary: "famous package for meteor",
-    version: "1.1.0",
+    version: "1.2.0",
     name: "particle4dev:famous",
     git: "https://github.com/particle4dev/famous-meteor.git"
 });
@@ -19,7 +19,7 @@ Package.on_use(function(api) {
         'requestAnimationFrame.js',
         'require.js',
         'famous.css',
-        'famous.js'
+        'famous.min.js'
     ], client);
     if (typeof api.export !== 'undefined') {
     }
