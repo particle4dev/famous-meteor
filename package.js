@@ -1,6 +1,6 @@
 Package.describe({
     summary: "famous package for meteor",
-    version: "1.2.1",
+    version: "1.3.0",
     name: "particle4dev:famous",
     git: "https://github.com/particle4dev/famous-meteor.git"
 });
@@ -12,7 +12,7 @@ var server = ['server'];
 
 Package.on_use(function(api) {
     if (api.versionsFrom)
-        api.versionsFrom('METEOR@0.9.2');
+        api.versionsFrom('1.0');
     api.add_files([
         'functionPrototypeBind.js',
         'classList.js',
